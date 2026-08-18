@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Система знаний для ВКонтакте — кейс — Анна UX</title>
+<meta name="description" content="Многоуровневая платформа базы знаний и поддержки для ВКонтакте: архитектура FAQ, ролевая админка, умный поиск и CSAT.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo"><span class="logo-dot"></span>duckky</a>
+    <nav class="main-nav">
+      <a href="../index.html#work">Все работы</a>
+      <a href="../index.html#about">Обо мне</a>
+      <a href="../index.html#skills">Навыки</a>
+      <a href="../index.html#contact">Контакты</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="mailto:duckkyyy@mail.ru" class="btn-contact">Связаться</a>
+      <button class="nav-toggle" aria-label="Меню"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="breadcrumb"><a href="../index.html">Главная</a> / <a href="../index.html#work">Кейсы</a> / ВКонтакте</div>
+
+<main>
+
+  <section class="slide case-hero">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Кейс проекта · 2025</span></div>
+      <div class="card">
+        <div class="hero-visual">
+          <div class="hero-visual-inner">
+            <svg class="pixel-icon" viewBox="0 0 72 64" xmlns="http://www.w3.org/2000/svg" fill="#0D0D0D" shape-rendering="crispEdges">
+              <rect x="16" y="0" width="8" height="8"/><rect x="48" y="0" width="8" height="8"/>
+              <rect x="24" y="8" width="24" height="8"/>
+              <rect x="16" y="16" width="40" height="8"/>
+              <rect x="8" y="24" width="16" height="8"/><rect x="32" y="24" width="8" height="8"/><rect x="48" y="24" width="16" height="8"/>
+              <rect x="0" y="32" width="72" height="8"/>
+              <rect x="0" y="40" width="8" height="8"/><rect x="16" y="40" width="40" height="8"/><rect x="64" y="40" width="8" height="8"/>
+              <rect x="0" y="48" width="8" height="8"/><rect x="16" y="48" width="8" height="8"/><rect x="48" y="48" width="8" height="8"/><rect x="64" y="48" width="8" height="8"/>
+              <rect x="24" y="56" width="8" height="8"/><rect x="40" y="56" width="8" height="8"/>
+            </svg>
+            <span class="eyebrow">Интерфейс · 2025</span>
+          </div>
+        </div>
+        <div class="case-hero-content">
+          <span class="kicker on-black">Кейс проекта</span>
+          <h1 class="h-display">Система знаний<br>для ВКонтакте</h1>
+          <p class="body-text">В 2024–2025 году команда занималась разработкой системы хранения и управления знаниями для ВКонтакте. Статичную базу FAQ превратили в полноценную платформу поддержки пользователей.</p>
+          <a href="#" class="btn-outline">Смотреть оригинальный кейс →</a>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span class="active"></span><span></span><span></span><span></span><span></span></div>
+        <span class="counter">01 / 05</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Overview</span></div>
+      <div class="card">
+        <h2 class="h-section">Контекст проекта</h2>
+        <div class="overview-text" style="margin-top:18px;">
+          <p class="body-text">Клиент — ВКонтакте, крупнейшая социальная сеть в России и СНГ. Нужно было превратить статичную базу знаний в универсальную платформу: базу знаний, точки входа в поддержку, систему оценки качества (CSAT) и умный поиск — под единой крышей и с гибкой настройкой под разные бизнес-юниты.</p>
+          <p class="body-text">Систему спроектировали так, чтобы новые сценарии поддержки можно было запускать без участия разработки — через многоуровневую админку с ролевой моделью.</p>
+        </div>
+        <div class="info-grid">
+          <div><div class="label">Роль</div><div class="value">Лид дизайнер, механики ролей</div></div>
+          <div><div class="label">Клиент</div><div class="value">ВКонтакте</div></div>
+          <div><div class="label accent">Сроки</div><div class="value">2024–2025</div></div>
+          <div><div class="label">Платформа</div><div class="value">Web · iOS · Android</div></div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span class="active"></span><span></span><span></span><span></span></div>
+        <span class="counter">02 / 05</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Проблема и цель</span></div>
+      <div class="card" style="padding:0;">
+        <div class="two-col">
+          <div>
+            <span class="kicker on-black">Проблема</span>
+            <h3>Статичный FAQ не справлялся с масштабом</h3>
+            <p class="body-text">База знаний была устроена как набор разрозненных статей — без гибкой архитектуры, ролей администрирования и способа измерить качество поддержки. При таком масштабе это ограничивало и пользователей, и бизнес-юниты, которым нужна была своя настройка контента.</p>
+          </div>
+          <div>
+            <span class="kicker on-black">Задача</span>
+            <h3>Собрать универсальную платформу</h3>
+            <p class="body-text">Спроектировать масштабируемую архитектуру FAQ, реализовать многоуровневую админку с ролевой моделью, добавить инструменты обратной связи (CSAT, обращения в поддержку) и быстрый умный поиск — с учётом сценариев для авторизованных и неавторизованных пользователей и системой логирования для аналитики.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span class="active"></span><span></span><span></span></div>
+        <span class="counter">03 / 05</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Process</span></div>
+      <div class="card">
+        <span class="kicker on-black">Процесс</span>
+        <h2 class="h-section">Как решали задачу</h2>
+        <ul class="process-list" style="margin-top:18px;">
+          <li><span class="num">01</span><div><h4>Архитектура FAQ</h4><p>Спроектировали древовидную структуру хранения данных: раздел → рубрика → подрубрика → категория → статья, которая автоматически адаптируется от 2 до 5 уровней под разные продукты.</p></div></li>
+          <li><span class="num">02</span><div><h4>Админ-панель и роли</h4><p>Собрали систему управления статьями с полноценным жизненным циклом — черновик, публикация, архив — с учётом различий веб, iOS и Android, и ролевую модель на 5 ролей с разными правами доступа.</p></div></li>
+          <li><span class="num">03</span><div><h4>Поиск и обратная связь</h4><p>Реализовали умный поиск с учётом опечаток и нечётких совпадений, синонимов, оценку CSAT, а также конструкторы точек входа в поддержку и опросов.</p></div></li>
+          <li><span class="num">04</span><div><h4>UX и интеграция с VK ID</h4><p>Продумали бесшовную навигацию через CJM, разместили умный поиск сразу для пользователей и в боковой панели для администраторов, собрали интерфейс на компонентах VK UI и настроили логирование для аналитики.</p></div></li>
+        </ul>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span></span><span class="active"></span><span></span></div>
+        <span class="counter">04 / 05</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Result</span></div>
+      <div class="card" style="padding:0;">
+        <div style="padding: clamp(28px,4vw,48px) clamp(28px,4vw,48px) 0;">
+          <span class="kicker on-black">Финальный дизайн</span>
+          <h2 class="h-section" style="margin-top:10px;">Как это выглядит</h2>
+        </div>
+        <div class="gallery" style="margin-top:28px; border-left:none; border-right:none; border-bottom:none;">
+          <figure><img src="../images/vk-1.jpg" alt="Система знаний для ВКонтакте — экран 1"></figure>
+          <figure><img src="../images/vk-2.jpg" alt="Система знаний для ВКонтакте — экран 2"></figure>
+          <figure><img src="../images/vk-3.jpg" alt="Система знаний для ВКонтакте — экран 3"></figure>
+          <figure><img src="../images/vk-4.jpg" alt="Система знаний для ВКонтакте — экран 4"></figure>
+          <figure><img src="../images/vk-5.jpg" alt="Система знаний для ВКонтакте — экран 5"></figure>
+          <figure><img src="../images/vk-6.jpg" alt="Система знаний для ВКонтакте — экран 6"></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide outcome">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Outcome</span></div>
+      <div class="card">
+        <div class="outcome-quote">
+          <blockquote>«Получилась единая платформа для базы знаний и поддержки внутри экосистемы ВКонтакте — команды публикуют и обновляют контент без участия разработки.»</blockquote>
+          <cite>— Команда ВКонтакте</cite>
+        </div>
+        <div class="outcome-body">
+          <span class="kicker on-black">Итоги</span>
+          <h2 class="h-section">Что получилось в результате</h2>
+          <p class="body-text">Пользователи чаще решают вопросы самостоятельно, у команды появились инструменты аналитики поведения, а новые сценарии поддержки можно запускать без участия разработки — архитектура заранее спроектирована как масштабируемая.</p>
+          <div class="stat-grid">
+            <div><div class="stat-value">60+</div><div class="stat-label">Структур базы знаний</div></div>
+            <div><div class="stat-value">200+</div><div class="stat-label">Связанных статей</div></div>
+            <div><div class="stat-value">5</div><div class="stat-label">Ролей администрирования</div></div>
+            <div><div class="stat-value">2–5</div><div class="stat-label">Уровней вложенности FAQ</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span></span><span></span><span class="active"></span></div>
+        <span class="counter">05 / 05</span>
+      </div>
+    </div>
+  </section>
+
+  <nav class="case-nav">
+    <div class="container">
+      <a class="prev" href="litres.html">← Литрес для умных часов</a>
+      <a class="next" href="mosreg.html">Сайты Московской области →</a>
+    </div>
+  </nav>
+
+</main>
+
+<footer class="site-footer">© 2026 duckky — Портфолио дизайнера</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

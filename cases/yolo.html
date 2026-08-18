@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOLO — кейс — Анна UX</title>
+<meta name="description" content="Концепт стримингового сервиса для русскоязычных стримеров и зрителей: конкурентный анализ, структура сайта, дизайн-система.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo"><span class="logo-dot"></span>duckky</a>
+    <nav class="main-nav">
+      <a href="../index.html#work">Все работы</a>
+      <a href="../index.html#about">Обо мне</a>
+      <a href="../index.html#skills">Навыки</a>
+      <a href="../index.html#contact">Контакты</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="mailto:duckkyyy@mail.ru" class="btn-contact">Связаться</a>
+      <button class="nav-toggle" aria-label="Меню"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="breadcrumb"><a href="../index.html">Главная</a> / <a href="../index.html#work">Кейсы</a> / YOLO</div>
+
+<main>
+
+  <section class="slide case-hero">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Курсовой проект · 2023–2024</span></div>
+      <div class="card">
+        <div class="hero-visual">
+          <div class="hero-visual-inner">
+            <svg class="pixel-icon" viewBox="0 0 72 64" xmlns="http://www.w3.org/2000/svg" fill="#0D0D0D" shape-rendering="crispEdges">
+              <rect x="16" y="0" width="8" height="8"/><rect x="48" y="0" width="8" height="8"/>
+              <rect x="24" y="8" width="24" height="8"/>
+              <rect x="16" y="16" width="40" height="8"/>
+              <rect x="8" y="24" width="16" height="8"/><rect x="32" y="24" width="8" height="8"/><rect x="48" y="24" width="16" height="8"/>
+              <rect x="0" y="32" width="72" height="8"/>
+              <rect x="0" y="40" width="8" height="8"/><rect x="16" y="40" width="40" height="8"/><rect x="64" y="40" width="8" height="8"/>
+              <rect x="0" y="48" width="8" height="8"/><rect x="16" y="48" width="8" height="8"/><rect x="48" y="48" width="8" height="8"/><rect x="64" y="48" width="8" height="8"/>
+              <rect x="24" y="56" width="8" height="8"/><rect x="40" y="56" width="8" height="8"/>
+            </svg>
+            <span class="eyebrow">Платформа · 2023–2024</span>
+          </div>
+        </div>
+        <div class="case-hero-content">
+          <span class="kicker on-black">Кейс проекта</span>
+          <h1 class="h-display">YOLO</h1>
+          <p class="body-text">Платформа для стримеров, которым нужна альтернатива зарубежным сервисам. От анализа конкурентов и карты аудитории — стримеров и зрителей — до структуры сайта и дизайн-системы для веб-сервиса.</p>
+          <a href="#" class="btn-outline">Смотреть оригинальный кейс →</a>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span class="active"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <span class="counter">01 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Overview</span></div>
+      <div class="card">
+        <h2 class="h-section">Контекст проекта</h2>
+        <div class="overview-text" style="margin-top:18px;">
+          <p class="body-text">С 2022 года Twitch перестал анонсировать русских стримеров, а с 2023 года многие пользователи в России сталкиваются с нестабильным доступом к сервису. При этом полноценной локальной альтернативы, куда стримеры могли бы перенести аудиторию и монетизацию, так и не появилось.</p>
+          <p class="body-text">Задача — спроектировать свой стриминговый сервис, который снимает зависимость от одной зарубежной площадки и закрывает разные сценарии для стримеров и зрителей.</p>
+        </div>
+        <div class="info-grid">
+          <div><div class="label">Роль</div><div class="value">Дизайнер продукта</div></div>
+          <div><div class="label">Тип проекта</div><div class="value">Курсовой проект (независимый)</div></div>
+          <div><div class="label accent">Год</div><div class="value">2023–2024</div></div>
+          <div><div class="label">Платформа</div><div class="value">Web · десктоп</div></div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span class="active"></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <span class="counter">02 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Проблема и цель</span></div>
+      <div class="card" style="padding:0;">
+        <div class="two-col">
+          <div>
+            <span class="kicker on-black">Проблема</span>
+            <h3>Стримерам из России стало некуда идти</h3>
+            <p class="body-text">С 2022 года крупнейшая стриминговая платформа стала менее доступна для русскоязычной аудитории. Часть пользователей продолжает смотреть стримы обходными путями, но это не даёт ни стабильности, ни удобства ни зрителям, ни самим стримерам.</p>
+          </div>
+          <div>
+            <span class="kicker on-black">Задача</span>
+            <h3>Создать свой стриминговый сервис</h3>
+            <p class="body-text">Спроектировать сервис, который позволит стримерам продолжать деятельность, не теряя аудиторию и монетизацию, доступный русскоязычному пользователю и удобный для тех, кто только начинает набирать аудиторию.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span class="active"></span><span></span><span></span><span></span><span></span><span></span></div>
+        <span class="counter">03 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Конкуренты</span></div>
+      <div class="card">
+        <span class="kicker on-black">Анализ рынка</span>
+        <h2 class="h-section">Кто уже пытается решить задачу</h2>
+        <div class="competitor-grid" style="margin-top:24px; border-top:1px solid var(--line-on-black);">
+          <div><h4>Twitch</h4><p>Родная площадка среди стримеров и зрителей — но с рисками нестабильного доступа и продвижением, не рассчитанным на российскую аудиторию.</p></div>
+          <div><h4>VK Play Live</h4><p>Хорошая интеграция с ВКонтакте, но невысокая посещаемость и слабый охват за пределами экосистемы VK.</p></div>
+          <div><h4>YouTube</h4><p>Стабильная площадка, но стримы теряются среди остального контента и не заточены под донаты и комьюнити.</p></div>
+          <div><h4>Boosty</h4><p>Помогает собирать донаты от аудитории, но не решает задачу самого стриминга — только монетизацию.</p></div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span></span><span class="active"></span><span></span><span></span><span></span><span></span></div>
+        <span class="counter">04 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Аудитория и ценности</span></div>
+      <div class="card" style="padding:0;">
+        <div class="two-col">
+          <div>
+            <span class="kicker on-black">Стримеры</span>
+            <h3>Мужчины и женщины 18–40 лет</h3>
+            <p class="body-text">Начинающие стримеры хотят стабильности и роста аудитории, но не готовы платить за продвижение. Опытные — ищут прозрачную монетизацию и инструменты для удержания комьюнити.</p>
+          </div>
+          <div>
+            <span class="kicker on-black">Зрители</span>
+            <h3>Мужчины и женщины 16–35 лет</h3>
+            <p class="body-text">Фанаты ищут любимых стримеров и готовы платить за поддержку. Казуальные зрители смотрят по настроению — для них важны доступность и простой запуск без регистрации.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span></span><span></span><span class="active"></span><span></span><span></span><span></span></div>
+        <span class="counter">05 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Process</span></div>
+      <div class="card">
+        <span class="kicker on-black">Структура</span>
+        <h2 class="h-section">От джоб-сторис к структуре сайта</h2>
+        <ul class="process-list" style="margin-top:18px;">
+          <li><span class="num">01</span><div><h4>Вход и подбор интересов</h4><p>Изучили job-stories аудитории и её сегменты — от них отталкивались, какие разделы сайта будут действительно нужны.</p></div></li>
+          <li><span class="num">02</span><div><h4>Главный экран и рекомендации</h4><p>Собрали афишу активных стримов с обложками и превью — чтобы выбирать было удобно, независимо от языка.</p></div></li>
+          <li><span class="num">03</span><div><h4>Профиль стримера и монетизация</h4><p>Донаты, подписки, чат и коллаборации собрали в одном месте вместо разрозненных сторонних сервисов.</p></div></li>
+          <li><span class="num">04</span><div><h4>Аналитика и достижения</h4><p>Прозрачный дэшборд с приростом просмотров, подписок и дохода — понятный самому стримеру, а не только аналитику.</p></div></li>
+        </ul>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span></span><span></span><span></span><span class="active"></span><span></span><span></span></div>
+        <span class="counter">06 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Design system</span></div>
+      <div class="card" style="padding:0;">
+        <div class="two-col">
+          <div>
+            <span class="kicker on-black">Стиль</span>
+            <h3>Дизайн-система</h3>
+            <p class="body-text">Шрифт — Montserrat, с хорошей читаемостью и чётким сочетанием с крупными заголовками. Единый паттерн компонентов для всех модулей платформы.</p>
+          </div>
+          <div>
+            <span class="kicker on-black">Концепт цвета</span>
+            <h3>Неоновый лайм на чёрном</h3>
+            <p class="body-text">Чёрный фон с ярко-кислотными акцентами — контрастирует со стандартной палитрой стриминговых платформ и выделяется среди конкурентов.</p>
+            <div class="swatches">
+              <div class="swatch" style="background:#0D0D0D;"></div>
+              <div class="swatch" style="background:#1A1A1A;"></div>
+              <div class="swatch" style="background:#F7F5F2;"></div>
+              <div class="swatch" style="background:#C6FF00;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span></span><span></span><span></span><span></span><span class="active"></span><span></span></div>
+        <span class="counter">07 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Result</span></div>
+      <div class="card" style="padding:0;">
+        <div style="padding: clamp(28px,4vw,48px) clamp(28px,4vw,48px) 0;">
+          <span class="kicker on-black">Финальный дизайн</span>
+          <h2 class="h-section" style="margin-top:10px;">Как это выглядит</h2>
+        </div>
+        <div class="gallery" style="margin-top:28px; border-left:none; border-right:none; border-bottom:none;">
+          <figure><img src="../images/yolo-1.jpg" alt="YOLO — экран 1"></figure>
+          <figure><img src="../images/yolo-2.jpg" alt="YOLO — экран 2"></figure>
+          <figure><img src="../images/yolo-3.jpg" alt="YOLO — экран 3"></figure>
+          <figure><img src="../images/yolo-4.jpg" alt="YOLO — экран 4"></figure>
+          <figure><img src="../images/yolo-5.jpg" alt="YOLO — экран 5"></figure>
+          <figure><img src="../images/yolo-6.jpg" alt="YOLO — экран 6"></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide outcome">
+    <div class="slide-inner">
+      <div class="slide-top"><span class="eyebrow">Outcome</span></div>
+      <div class="card">
+        <div class="outcome-quote">
+          <blockquote>«Проработали весь путь стримера и зрителя — от конкурентного анализа до чёткой структуры сайта, ориентированной на реалии российского рынка.»</blockquote>
+          <cite>— Команда проекта</cite>
+        </div>
+        <div class="outcome-body">
+          <span class="kicker on-black">Итоги</span>
+          <h2 class="h-section">Что получилось в результате</h2>
+          <p class="body-text">Проработали конкурентный анализ, карту аудитории, структуру сайта и дизайн-систему — концепт стримингового сервиса, ориентированный на российского стримера и зрителя.</p>
+          <div class="stat-grid">
+            <div><div class="stat-value">4</div><div class="stat-label">Конкурента проанализировано</div></div>
+            <div><div class="stat-value">2</div><div class="stat-label">Целевые аудитории</div></div>
+            <div><div class="stat-value">5+</div><div class="stat-label">Экранов в дизайн-системе</div></div>
+            <div><div class="stat-value">Lime</div><div class="stat-label">Неоновый акцент на чёрном</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="dots"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="active"></span></div>
+        <span class="counter">08 / 08</span>
+      </div>
+    </div>
+  </section>
+
+  <nav class="case-nav">
+    <div class="container">
+      <a class="prev" href="nippon.html">← Ниппон</a>
+      <a class="next" href="../index.html#work">Портфолио →</a>
+    </div>
+  </nav>
+
+</main>
+
+<footer class="site-footer">© 2026 duckky — Портфолио дизайнера</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
